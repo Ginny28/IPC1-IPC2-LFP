@@ -1,0 +1,5 @@
+C:\Users\NelsonLaptop\Desktop\IPC2Fase3\Fase3_IPC2_S2_2011\Fase2_IPC2_S2_2011\bin\Fase2_IPC2_S2_2011.dll
+C:\Users\NelsonLaptop\Desktop\IPC2Fase3\Fase3_IPC2_S2_2011\Fase2_IPC2_S2_2011\bin\Fase2_IPC2_S2_2011.pdb
+C:\Users\NelsonLaptop\Desktop\IPC2Fase3\Fase3_IPC2_S2_2011\Fase2_IPC2_S2_2011\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\NelsonLaptop\Desktop\IPC2Fase3\Fase3_IPC2_S2_2011\Fase2_IPC2_S2_2011\obj\Debug\Fase2_IPC2_S2_2011.dll
+C:\Users\NelsonLaptop\Desktop\IPC2Fase3\Fase3_IPC2_S2_2011\Fase2_IPC2_S2_2011\obj\Debug\Fase2_IPC2_S2_2011.pdb

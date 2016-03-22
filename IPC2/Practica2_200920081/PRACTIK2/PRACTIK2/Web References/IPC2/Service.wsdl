@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.practica2.com" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.practica2.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.practica2.com">
+      <s:element name="insert_aeroline">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id_aerolinea" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="nombre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="telefono" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="direccion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="insert_aerolineResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="insert_aerolineResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="insert_avion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id_avion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="capacidad" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="peso" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="id_aero" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="insert_avionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="insert_avionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="insert_reservacion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id_reserva" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="destino" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fecha" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="precio" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="insert_reservacionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="insert_reservacionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="insert_cliente">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id_cliente" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="nombre_cliente" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fecha_nac" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tele_clien" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dir_cliente" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="correo_cli" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="insert_clienteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="insert_clienteResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="insert_aerolineSoapIn">
+    <wsdl:part name="parameters" element="tns:insert_aeroline" />
+  </wsdl:message>
+  <wsdl:message name="insert_aerolineSoapOut">
+    <wsdl:part name="parameters" element="tns:insert_aerolineResponse" />
+  </wsdl:message>
+  <wsdl:message name="insert_avionSoapIn">
+    <wsdl:part name="parameters" element="tns:insert_avion" />
+  </wsdl:message>
+  <wsdl:message name="insert_avionSoapOut">
+    <wsdl:part name="parameters" element="tns:insert_avionResponse" />
+  </wsdl:message>
+  <wsdl:message name="insert_reservacionSoapIn">
+    <wsdl:part name="parameters" element="tns:insert_reservacion" />
+  </wsdl:message>
+  <wsdl:message name="insert_reservacionSoapOut">
+    <wsdl:part name="parameters" element="tns:insert_reservacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="insert_clienteSoapIn">
+    <wsdl:part name="parameters" element="tns:insert_cliente" />
+  </wsdl:message>
+  <wsdl:message name="insert_clienteSoapOut">
+    <wsdl:part name="parameters" element="tns:insert_clienteResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="insert_aeroline">
+      <wsdl:input message="tns:insert_aerolineSoapIn" />
+      <wsdl:output message="tns:insert_aerolineSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="insert_avion">
+      <wsdl:input message="tns:insert_avionSoapIn" />
+      <wsdl:output message="tns:insert_avionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="insert_reservacion">
+      <wsdl:input message="tns:insert_reservacionSoapIn" />
+      <wsdl:output message="tns:insert_reservacionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="insert_cliente">
+      <wsdl:input message="tns:insert_clienteSoapIn" />
+      <wsdl:output message="tns:insert_clienteSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="insert_aeroline">
+      <soap:operation soapAction="http://www.practica2.com/insert_aeroline" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insert_avion">
+      <soap:operation soapAction="http://www.practica2.com/insert_avion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insert_reservacion">
+      <soap:operation soapAction="http://www.practica2.com/insert_reservacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insert_cliente">
+      <soap:operation soapAction="http://www.practica2.com/insert_cliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="insert_aeroline">
+      <soap12:operation soapAction="http://www.practica2.com/insert_aeroline" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insert_avion">
+      <soap12:operation soapAction="http://www.practica2.com/insert_avion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insert_reservacion">
+      <soap12:operation soapAction="http://www.practica2.com/insert_reservacion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insert_cliente">
+      <soap12:operation soapAction="http://www.practica2.com/insert_cliente" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://localhost:1428/WS1/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://localhost:1428/WS1/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

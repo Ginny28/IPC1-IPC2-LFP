@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agencia_viaje>
+	
+<aerolinea >
+			<idAerolinea>AR1</idAerolinea>
+			<nombre>Continental Airlines</nombre>
+			<telefono>28369080</telefono>
+			<direccion>Av. Los Alamos zona 14</direccion>
+		
+	<avion>
+		<idAvion >AV1</idAvion >
+		<capacidad>100</capacidad>
+		<peso>10000</peso>
+
+		<cliente >
+			<idCliente >CL1</idCliente >
+			<nombre>Byron Rivera</nombre>
+			<fechaNac>02-12-1987</fechaNac>
+			<telefono>56523490</telefono>
+			<direccion>12 Av. 15-12 Zona 1</direccion>
+			<correo>byron.rivera@gmail.com</correo>
+
+		
+		<reservacion>
+			<idReserva >RV1</idReserva >
+			<destino> Buenos Aires </destino>
+			<fecha> 15-10-11 </fecha>
+			<precio> 5000 </precio>
+		</reservacion>
+
+		<reservacion >
+			<idReserva >RV2</idReserva >
+			<destino> Mexico D.F. </destino>
+			<fecha> 17-08-11 </fecha>
+			<precio> 3000 </precio>
+		</reservacion>
+
+		</cliente>
+	</avion>
+
+<avion >
+		<idAvion >AV2</idAvion >
+		<capacidad>150</capacidad>
+		<peso>12000</peso>
+
+	<cliente >
+		<idCliente >CL2</idCliente >
+		<nombre>Henry Diaz</nombre>
+		<fechaNac>12-10-1982</fechaNac>
+		<telefono>56543490</telefono>
+		<direccion>10 Av. 12-35 Zona 5</direccion>
+		<correo>henry.diaz@yahoo.com</correo>
+
+		
+		<reservacion >
+			<idReserva >RV3</idReserva >
+			<destino> Jamaica </destino>
+			<fecha> 05-07-10 </fecha>
+			<precio> 7000 </precio>
+		</reservacion>
+
+		<reservacion >
+			<idReserva >RV4</idReserva >
+			<destino>New York </destino>
+			<fecha> 01-06-12 </fecha>
+			<precio> 4500 </precio>
+		</reservacion>
+	</cliente>
+
+
+	<cliente >
+		<idCliente >CL3</idCliente >
+		<nombre>Julio Santizo</nombre>
+		<fechaNac>20-07-1980</fechaNac>
+		<telefono>45523480</telefono>
+		<direccion>1ra. Av. 10-15 Zona 17</direccion>
+		<correo>julio.santizo@hotmail.com</correo>
+
+		
+		<reservacion >
+			<idReserva >RV5</idReserva >
+			<destino> Panama </destino>
+			<fecha> 12-05-12 </fecha>
+			<precio> 6000 </precio>
+		</reservacion>
+
+		
+	</cliente>
+	</avion>
+
+</aerolinea>
+
+
+<aerolinea >
+		<idAerolinea>AR2</idAerolinea>
+		<nombre>Continental Airlines</nombre>
+		<telefono>28369080</telefono>
+		<direccion>Av. Los Alamos zona 14</direccion>
+		
+
+
+	<avion >
+		<idAvion >AV3</idAvion >
+		<capacidad>250</capacidad>
+		<peso>15000</peso>
+
+	<cliente >
+		<idCliente >CL4</idCliente >
+		<nombre>Oswaldo Cerna</nombre>
+		<fechaNac>07-09-1985</fechaNac>
+		<telefono>56598076</telefono>
+		<direccion>9na. Av. 35-78 Zona 9</direccion>
+		<correo>oswaldo.cerna@gmail.com</correo>
+
+		
+		<reservacion >
+			<idReserva >RV6</idReserva >
+			<destino> Puerto Rico </destino>
+			<fecha> 06-07-11 </fecha>
+			<precio> 5000 </precio>
+		</reservacion>
+
+		<reservacion >
+			<idReserva >RV7</idReserva >
+			<destino> Boston </destino>
+			<fecha> 14-12-12 </fecha>
+			<precio> 8500 </precio>
+		</reservacion>
+
+</cliente >
+	</avion>	
+	
+</aerolinea >	
+</agencia_viaje>

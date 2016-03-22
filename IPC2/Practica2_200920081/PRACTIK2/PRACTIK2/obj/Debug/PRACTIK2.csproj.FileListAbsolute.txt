@@ -1,0 +1,7 @@
+C:\Users\Andy\Documents\Visual Studio 2010\Projects\PRACTIK2\PRACTIK2\bin\PRACTIK2.dll
+C:\Users\Andy\Documents\Visual Studio 2010\Projects\PRACTIK2\PRACTIK2\bin\PRACTIK2.pdb
+C:\Users\Andy\Documents\Visual Studio 2010\Projects\PRACTIK2\PRACTIK2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andy\Documents\Visual Studio 2010\Projects\PRACTIK2\PRACTIK2\obj\Debug\RdlCompile.cache
+C:\Users\Andy\Documents\Visual Studio 2010\Projects\PRACTIK2\PRACTIK2\obj\Debug\RdlCompile.compiled
+C:\Users\Andy\Documents\Visual Studio 2010\Projects\PRACTIK2\PRACTIK2\obj\Debug\PRACTIK2.dll
+C:\Users\Andy\Documents\Visual Studio 2010\Projects\PRACTIK2\PRACTIK2\obj\Debug\PRACTIK2.pdb

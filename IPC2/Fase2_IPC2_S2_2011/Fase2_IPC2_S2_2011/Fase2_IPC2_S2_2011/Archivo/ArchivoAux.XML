@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Libro>
+        <Titulo>Fundamentos de XML Schema</Titulo>
+        <Autores>Allen Wyke</Autores>
+        <Autores>Andrew Watt</Autores>
+        <Auto>Ferrary </Auto>
+</Libro>
