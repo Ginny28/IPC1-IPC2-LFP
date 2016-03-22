@@ -1,0 +1,13 @@
+C:\Users\Andy\Desktop\Proyecto_2\Proyecto_2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Andy\Desktop\Proyecto_2\Proyecto_2\obj\x86\Debug\Proyecto_2.Form1.resources
+C:\Users\Andy\Desktop\Proyecto_2\Proyecto_2\obj\x86\Debug\Proyecto_2.Resources.resources
+C:\Users\Andy\Desktop\Proyecto_2\Proyecto_2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Andy\Desktop\Proyecto_2\Proyecto_2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Andy\Desktop\Proyecto_2\Proyecto_2\bin\Debug\Proyecto_2.exe
+C:\Users\Andy\Desktop\Proyecto_2\Proyecto_2\bin\Debug\Proyecto_2.pdb
+C:\Users\Andy\Desktop\Proyecto_2\Proyecto_2\bin\Debug\Proyecto_2.xml
+C:\Users\Andy\Desktop\Proyecto_2\Proyecto_2\bin\Debug\itextsharp.dll
+C:\Users\Andy\Desktop\Proyecto_2\Proyecto_2\obj\x86\Debug\Proyecto_2.exe
+C:\Users\Andy\Desktop\Proyecto_2\Proyecto_2\obj\x86\Debug\Proyecto_2.xml
+C:\Users\Andy\Desktop\Proyecto_2\Proyecto_2\obj\x86\Debug\Proyecto_2.pdb
+C:\Users\Andy\Desktop\Proyecto_2\Proyecto_2\obj\x86\Debug\Proyecto_2.Dialog1.resources
