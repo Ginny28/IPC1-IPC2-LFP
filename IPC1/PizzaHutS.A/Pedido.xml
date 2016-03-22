@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Pedido>
+    <Orden>
+        <Factura>2</Factura>
+        <Nombre>NELSON CRUZ</Nombre>
+        <Direccion>VILLA NUEVA </Direccion>
+        <telefono>46567868</telefono>
+        <Nit>c/f</Nit>
+        <Masa>Delgada</Masa>
+        <Pizza>Napolitana</Pizza>
+        <Ingredientes>Salami  Queso  Jamon    Tocino    Piña    Pollo          </Ingredientes>
+        <Total>130.0</Total>
+    </Orden>
+</Pedido>
